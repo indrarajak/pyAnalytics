@@ -52,7 +52,7 @@ car  #mutable , value can be changed
 
 #%%frozen Dictionaries https://pypi.org/project/frozendict/
 #conda install -c conda-forge frozendict #from anaconda as admin
-#pip install frozendict   #install this library
+pip install frozendict   
 from frozendict import frozendict
 fd = frozendict({ 'brand': 'Honda' })
 fd
