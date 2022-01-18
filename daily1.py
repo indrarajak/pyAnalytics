@@ -52,7 +52,7 @@ car  #mutable , value can be changed
 
 #%%frozen Dictionaries https://pypi.org/project/frozendict/
 #conda install -c conda-forge frozendict #from anaconda as admin
-pip install frozendict   
+#pip install frozendict   
 from frozendict import frozendict
 fd = frozendict({ 'brand': 'Honda' })
 fd
@@ -247,7 +247,7 @@ sns.pairplot(iris)  #relationship diagrams
 
 #%% #Load Inbuilt Datasets
 
-#pip install pydataset
+pip install pydataset
 from pydataset import data
 data('iris')
 data('mtcars')
@@ -290,6 +290,6 @@ data2a.head()
 data2c = pd.read_excel('mtcarsExcel.xlsx',header=0)
 #header=None
 data2c.head()
-
+    
 #end here....
 #now practise numpy and pandas....
